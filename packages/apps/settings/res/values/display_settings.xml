@@ -1,0 +1,7 @@
+    </PreferenceCategory>
+       <Preference
+        android:key="custom_screen_resolution_pref"
+        android:title="@string/custom_screen_resolution_title"
+        android:fragment="com.android.settings.display.CustomScreenResolutionFragment"
+        settings:controller="com.android.settings.display.CustomScreenResolutionPreferenceController" />
+    </PreferenceCategory>
